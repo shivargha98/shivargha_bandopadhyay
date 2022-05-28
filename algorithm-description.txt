@@ -1,0 +1,10 @@
+The code has two algorithm choices,
+Algorithm 1:
+	This algorithm uses, Intensity values from the HSI model,
+	where I = (R+G+B)/3, where R,G,B are normalised and are in the [0-1] range
+	Brighter/Day images will have more intensity as compared to the darker/night images
+	
+Algorithm 2:
+	This algorithm uses the percentage of darker pixels,
+	Here pixel values in the range (0 to 40) are considered as the darker pixels,
+	more the number of darker pixels means the images is of night, and vice-versa for day images
