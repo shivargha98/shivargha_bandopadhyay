@@ -1,4 +1,4 @@
-# To run the code, follow the steps
+## To run the code, follow the steps
 # git clone https://github.com/shivargha98/shivargha_bandopadhyay.git
 # cd into the folder
 # run -->> python main.py --imgpath "full-image-path" --algochoice 1
